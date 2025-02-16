@@ -2,6 +2,8 @@ use windows_registry::*;
 
 pub struct V253284API;
 
+//TODO: Add Checkup on if registry key exists for value
+
 impl V253284API {
     pub fn status() -> Result<bool> {
         let key_path = "SYSTEM\\CurrentControlSet\\Control\\Lsa";
@@ -10,7 +12,7 @@ impl V253284API {
 
         let value = match hklm {
             Ok(hklm) => hklm.get_u32(value_name),
-            Err(_) => panic!("Cannot Open Registry Key"),
+            Err(_) => panic!("Cannot Open Critical Registry Key Or Not Found"),
         };
 
         match value {

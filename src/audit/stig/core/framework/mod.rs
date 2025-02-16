@@ -26,3 +26,21 @@ impl DEPStatusV253283 {
         }
     }
 }
+
+#[derive(Clone,Copy)]
+pub struct RemoteDesktopAssistanceStatus(pub RemoteDesktopAssistanceStatusTypes);
+
+#[derive(Clone,Copy)]
+pub enum RemoteDesktopAssistanceStatusTypes {
+    Enabled,
+    Disabled,
+    Corrupted,
+}
+
+pub struct Autoplay(pub AutoplayTypes);
+
+pub enum AutoplayTypes {
+    AutoplayDisabled,
+    AutoplayEnabled,
+    Corrupted,
+}
