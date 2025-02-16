@@ -15,4 +15,8 @@ A Rust, Open-Source, Security Tool For Auditing Windows Systems With Multiple Se
 - [X] V=253305: Reversible Password Decryption
   - [X] Status
   - [ ] Enable
-- [ ] V-253382: Remote Assistance
+- [X] V-253382: Remote Assistance
+  - [X] Status
+  - [ ] Enable
+- [X] V-253388,V-253387,V-253388: Autoplay
+  - [X] Status  
