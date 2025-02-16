@@ -11,8 +11,8 @@ A Rust, Open-Source, Security Tool For Auditing Windows Systems With Multiple Se
 - [X] V-253283: Data Execution Prevention
   - [X] Status
   - [ ] Enable
-- [] V-253284: SEHOP 
+- [ ] V-253284: SEHOP 
 - [X] V=253305: Reversible Password Decryption
   - [X] Status
   - [ ] Enable
-- [] V-253382: Remote Assistance
+- [ ] V-253382: Remote Assistance
