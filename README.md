@@ -32,7 +32,8 @@ NA
 - [X] V-253283: Data Execution Prevention
   - [X] Status
   - [ ] Enable (Needs Bitlocker Turned Off)
-- [ ] V-253284: SEHOP 
+- [X] V-253284: SEHOP
+  - [X] Status  
 - [X] V-253305: Reversible Password Decryption
   - [X] Status
 - [X] V-253382: Remote Assistance
