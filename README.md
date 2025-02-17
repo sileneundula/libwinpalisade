@@ -35,7 +35,8 @@ NA
 - [ ] V-253284: SEHOP 
 - [X] V-253305: Reversible Password Decryption
   - [X] Status
-  - [ ] Enable
+  - [X] Enable
+  - [X] Disable 
 - [X] V-253382: Remote Assistance
   - [X] Status
   - [ ] Enable
