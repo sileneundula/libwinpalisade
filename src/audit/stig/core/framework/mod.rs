@@ -37,10 +37,32 @@ pub enum RemoteDesktopAssistanceStatusTypes {
     Corrupted,
 }
 
+#[derive(Clone,Copy)]
 pub struct Autoplay(pub AutoplayTypes);
 
+#[derive(Clone,Copy)]
 pub enum AutoplayTypes {
     AutoplayDisabled,
     AutoplayEnabled,
+    Corrupted,
+}
+
+#[derive(Clone,Copy)]
+pub struct SEHOPStatus(pub SEHOPStatusTypes);
+
+#[derive(Clone,Copy)]
+pub enum SEHOPStatusTypes {
+    Enabled,
+    Disabled,
+    Corrupted,
+}
+
+#[derive(Clone,Copy)]
+pub struct ReversiblePasswordDecryptionStatus(pub ReversiblePasswordDecryptionStatusTypes);
+
+#[derive(Clone,Copy)]
+pub enum ReversiblePasswordDecryptionStatusTypes {
+    Enabled,
+    Disabled,
     Corrupted,
 }
