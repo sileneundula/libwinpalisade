@@ -31,7 +31,8 @@ NA
 
 - [X] V-253283: Data Execution Prevention
   - [X] Status
-  - [ ] Enable (Needs Bitlocker Turned Off)
+    - [X] Struct For Detailed Info 
+  - [ ] Enable (Needs Bitlocker Turned Off
 - [X] V-253284: SEHOP
   - [X] Status  
 - [X] V-253305: Reversible Password Decryption
