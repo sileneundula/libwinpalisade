@@ -8,8 +8,20 @@ Includes multiple modules like auditing and the PalisadeSec (custom-made) analys
 
 ## PalisadeSecurity
 
+### Security Modules
+
+#### PalisadeSec
+
 - [X] `Palisade-0000`: .hosts file (DNS)
-  - [X] Analysis 
+  - [X] Analysis
+
+#### Integrity
+
+NA
+
+#### Signature
+
+NA
 
 ## Auditing
 
@@ -19,7 +31,7 @@ Includes multiple modules like auditing and the PalisadeSec (custom-made) analys
   - [X] Status
   - [ ] Enable (Needs Bitlocker Turned Off)
 - [ ] V-253284: SEHOP 
-- [X] V=253305: Reversible Password Decryption
+- [X] V-253305: Reversible Password Decryption
   - [X] Status
   - [ ] Enable
 - [X] V-253382: Remote Assistance
