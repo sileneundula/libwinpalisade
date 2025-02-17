@@ -5,3 +5,5 @@ extern crate pretty_env_logger;
 extern crate log;
 
 pub mod audit;
+
+pub mod palisadesec;
