@@ -8,7 +8,7 @@ Includes multiple modules like auditing and the PalisadeSec (custom-made) analys
 
 ## PalisadeSecurity
 
-- [X] [Pali-0000] .hosts file (DNS)
+- [X] `Palisade-0000`: .hosts file (DNS)
   - [X] Analysis 
 
 ## Auditing
