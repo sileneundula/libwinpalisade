@@ -66,3 +66,15 @@ pub enum ReversiblePasswordDecryptionStatusTypes {
     Disabled,
     Corrupted,
 }
+
+#[derive(Clone,Copy,Debug)]
+
+pub struct NoLMHashStatus(pub NoLMHash);
+
+#[derive(Clone,Copy,Debug)]
+
+pub enum NoLMHash {
+    Enabled,
+    Disabled,
+    Corrupted,
+}

@@ -6,4 +6,7 @@ extern crate log;
 
 pub mod audit;
 
+/// Analyze the System
+pub mod analysis;
+
 pub mod palisadesec;

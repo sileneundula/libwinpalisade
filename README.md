@@ -45,3 +45,5 @@ NA
   - [X] Status
   - [X] Enable
   - [X] Disable 
+- [X] V-253461: NoLMHash
+  - [X] Status
