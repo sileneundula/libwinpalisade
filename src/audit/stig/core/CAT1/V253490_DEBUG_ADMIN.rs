@@ -31,7 +31,7 @@ impl V253461_SAM {
 
     }
 }
-    */
+    
 
 #[test]
 fn run_sam() {
@@ -39,3 +39,5 @@ fn run_sam() {
 
     println!("Status: {:?}", status.0)
 }
+
+*/

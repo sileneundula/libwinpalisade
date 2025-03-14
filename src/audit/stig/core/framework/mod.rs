@@ -1,4 +1,4 @@
-use pretty_env_logger;
+
 #[macro_use] use log::*;
 
 // #1. DEP
